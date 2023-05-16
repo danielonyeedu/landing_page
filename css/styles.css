@@ -1,0 +1,74 @@
+body {
+    display: flex; 
+    flex-direction: column;
+    margin: 0;
+}
+
+/* Remove bullet points on lists */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header {
+    background-color: #1F2937;
+    padding: 50px 100px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+/* Header Navbar */
+.header-navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.header-navbar-left{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.header-navbar-right {
+    display: flex;
+    gap: 10px;
+}
+
+/* Header Content */
+.header-content {
+    display: flex;
+    gap: 10px;
+}
+
+.header-content-left, .header-content-right{
+    flex: 1;
+}
+
+.header-content-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.header-content-secondary {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.button {
+    padding: 6px 15px;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 4px;
+    border-color: #3882F6;
+    font-weight: bold;
+}
