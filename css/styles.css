@@ -20,9 +20,7 @@ a {
 .header {
     background-color: #1F2937;
     padding: 50px 100px;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
+    overflow: hidden;
 }
 
 /* Header Navbar */
@@ -73,9 +71,106 @@ a {
     font-weight: bold;
 }
 
-.image1 {
+.header-image {
     max-width: 100%;
     min-width: 200px;
 }
 
 /* Main Styling */
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    align-self: center;
+    margin: 40px;
+}
+
+/* Main: Image List */
+.main-cards {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.main-card {
+    text-align: center;
+    width: 20%;
+}
+
+.main-image {
+    width: 40%;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.main-card-text {
+    text-align: center;
+    overflow: auto;
+}
+
+/* Main: Quotes */
+.main-quotes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 350px;
+    background-color: #E5E7EB;
+    padding: 10px 20%;
+    margin-bottom: 50px;
+}
+
+.main-quotes-text {  
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    margin-bottom:  10px;
+    overflow: auto;
+    
+}
+
+.main-quotes-author {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: right;
+    color: #1F2937;
+}
+
+.main-action {
+    padding: 10px 10%;
+    margin-bottom: 70px;
+}
+
+.main-action-container {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-action-header, .main-action-text, .footer-text {
+    color: white;
+}
+
+.main-action-header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.white {
+    border: 2px solid white;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
