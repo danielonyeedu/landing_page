@@ -1,6 +1,6 @@
 body {
-    display: flex; 
-    flex-direction: column;
+    /* display: flex; 
+    flex-direction: column; */
     margin: 0;
 }
 
@@ -72,3 +72,10 @@ a {
     border-color: #3882F6;
     font-weight: bold;
 }
+
+.image1 {
+    max-width: 100%;
+    min-width: 200px;
+}
+
+/* Main Styling */
